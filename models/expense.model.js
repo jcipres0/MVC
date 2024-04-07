@@ -1,9 +1,3 @@
-/**
- * @class Model
- *
- * Manages the data of the application.
- */
-
 
 class Transaction {
     constructor(text, amount) {
@@ -12,7 +6,7 @@ class Transaction {
         this.amount = amount;
     }
 
-    // Generate random ID
+    // tal como se hace en todo.model el id lo genero al crear la transacción
     generateID() {
         return Math.floor(Math.random() * 100000000);
     }
